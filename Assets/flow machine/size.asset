@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: size
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":0.0,"y":6.8988},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-295.0,"y":-143.0},"guid":"96677009-6989-4373-b165-a1340c92c4c3","$version":"A","$type":"Bolt.Start"},{"coroutine":false,"defaultValues":{},"position":{"x":-309.0,"y":30.0},"guid":"deff19cc-8b3a-46a4-9e87-2fe8d1630a5a","$version":"A","$type":"Bolt.Update"},{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-175.0,"y":-72.0},"guid":"a91bc943-810c-41ba-b9d9-a81d1c1f41c2","$version":"A","$type":"Bolt.OnButtonClick","$id":"13"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"price","$type":"System.String"},"object":null},"position":{"x":-153.0,"y":9.0},"guid":"e0b1523a-06e5-4905-b9e9-18c9a25cbb9b","$version":"A","$type":"Bolt.GetVariable","$id":"15"},{"kind":"Scene","defaultValues":{"name":{"$content":"size","$type":"System.String"}},"position":{"x":56.0,"y":-68.0},"guid":"ab389dcf-33d1-4c1f-8f79-a549df4cff23","$version":"A","$type":"Bolt.SetVariable","$id":"17"},{"sourceUnit":{"$ref":"13"},"sourceKey":"trigger","destinationUnit":{"$ref":"17"},"destinationKey":"assign","guid":"203d5801-eb02-4c0d-89e5-909547def19c","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"15"},"sourceKey":"value","destinationUnit":{"$ref":"17"},"destinationKey":"input","guid":"3534fff2-9ac9-4e14-b081-06c0fb9bd846","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
