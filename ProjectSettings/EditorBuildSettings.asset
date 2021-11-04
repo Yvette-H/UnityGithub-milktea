@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/milk tea.unity
+    guid: cf81a03b00f034af79337de9b8bb8b88
   m_configObjects: {}
